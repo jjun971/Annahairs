@@ -6,7 +6,6 @@ body{
   width: auto;
   list-style-type: none;
   display: block;
-  width: 100%;
   font-size: 90px;
   position: fixed;
   bottom: 0;
@@ -45,7 +44,7 @@ body{
     background-color: #909090;
     width: auto;
     transform: translate(0px, -5px);
-    font-size: 2rem;
+    font-size: 5rem;
   }
  .suitimg
   {

@@ -6,6 +6,7 @@ body{
   width: auto;
   list-style-type: none;
   display: block;
+  width: 100%;
   font-size: 90px;
   position: fixed;
   bottom: 0;

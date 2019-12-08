@@ -7,7 +7,7 @@ body{
   list-style-type: none;
   display: block;
   width: 100%;
-  font-size: 36px;
+  font-size: 56px;
   position: fixed;
   bottom: 0;
   margin: auto;
@@ -33,13 +33,13 @@ body{
 }
 
 .manu a{
-  padding: 10px 30px;
+  padding: 25px 40px;
   text-decoration: none;
   color: white;
   display: block;
   text-align: center;
   transition: transform 0.1s, font-size 0.3s;
-  font-size: 20px;
+  font-size: 35px;
 }
 .manu a:hover:not(.active) {
     background-color: #909090;

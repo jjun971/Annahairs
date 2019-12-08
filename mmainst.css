@@ -7,12 +7,10 @@ body{
   list-style-type: none;
   display: block;
   width: 100%;
-  font-size: 30px;
+  font-size: 36px;
   position: fixed;
   bottom: 0;
   margin: auto;
-  left: 0;
-  right: 0;
 }
 .one{
   background-color: #5e5e5e;
@@ -30,9 +28,12 @@ body{
   background-color: #3a3a3a;
 }
 
+.manu li{
+  float: right;
+}
 
 .manu a{
-  padding: 10px 10px;
+  padding: 10px 30px;
   text-decoration: none;
   color: white;
   display: block;

@@ -2,6 +2,10 @@ body{
   margin: 0;
   padding: 0;
 }
+
+.titimg{
+ Position: fixed;
+}
 .manu{
   width: auto;
   list-style-type: none;

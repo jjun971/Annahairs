@@ -53,7 +53,7 @@ body{
  }
  input[id="menuicon"]:checked +label{
    z-index: 2;
-   left: 500px;
+   left: 800px;
  }
  /*-------sidebar size--------*/
 
@@ -68,12 +68,12 @@ img[id="titleimg"]
 
 div[class="sidebar"]
 {
-  width: 500px;
+  width: 800px;
   height: 100%;
   background: #ededed;
   position: fixed;
   top: 0;
-  left: -500px;
+  left: -800px;
   z-index: 1;
   transition: all .35s;
 }

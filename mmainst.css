@@ -111,16 +111,16 @@ div[class="sidebar"]
   text-align: center;
 }
 .subt{
-  width: 80%;
+  width: 100%;
 }
 .cabt{
-  width: 80%;
+  width: 100%;
 }
 .stbt{
-  width: 80%;
+  width: 100%;
 }
 .mobt{
-  width: 80%;
+  width: 100%;
 }
 /*---woman---*/
 .womane{
@@ -143,7 +143,6 @@ div[class="sidebar"]
   background: #ccc;
   text-align: center;
   font-size: 15px;
-  top: 100%;
 }
 input[id="menuicon"]:checked + label + div {left: 0;}
  /*poto*/

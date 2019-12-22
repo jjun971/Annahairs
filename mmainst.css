@@ -2,7 +2,6 @@ body{
   margin: 0;
   padding: 0;
   width: 100%;
-  background: #ededff;
 }
 /*----------mosianbotton-------------*/
  input[id="menuicon"]
@@ -17,11 +16,10 @@ body{
    cursor: pointer;
    top: 50%;
    border-radius: 15px;
-   box-shadow: 5px 5px 15px black;
  }
 
  input[id="menuicon"] +label span{
-   display:flex;
+   display: flex;
    position: absolute;
    width: 90%;
    height: 10px;
@@ -31,13 +29,16 @@ body{
  }
  input[id="menuicon"] +label span:nth-child(1){
    top: 0;
+   left: -45px;
  }
  input[id="menuicon"] +label span:nth-child(2){
    top: 50%;
    transform: translateY(-50%);
+   left: -45px;
  }
  input[id="menuicon"] +label span:nth-child(3){
    bottom: 0;
+   left: -45px;
  }
  input[id="menuicon"]:checked + label span:nth-child(1){
    top: 50%;
@@ -62,15 +63,14 @@ img[id="titleimg"]
   left: 20px;
   right: 20px;
   top: auto;
-  background: #d5d9ff;
-  box-shadow: 0 20px 10px #e1e4ff;
+  box-shadow: 0 20px 10px #ccc;
 }
 
 div[class="sidebar"]
 {
   width: 500px;
   height: 100%;
-  background: #222;
+  background: #ededed;
   position: fixed;
   top: 0;
   left: -500px;
@@ -83,19 +83,67 @@ div[class="sidebar"]
 {
   background: #fff;
   font-size: 50px;
-  width: 100%;
+  width: 85%;
+  height: 90%;
+  left: 1%;
+  right: -1%;
+  margin: 0 auto;
+  padding: 0 auto;
+  display: block;
+  align-items: stretch;
 }
-.stwo
-{
-  background: #191919;
-  font-size: 20px;
+/*---man---*/
+.mane{
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 auto;
+  margin-top: 10%;
+  display: table;
+  vertical-align: middle;
+  font-size: 100px;
+  /*box-shadow: 0 -10px 80px #000;*/
 }
-.smd
+.mans
 {
-  background: #979797;
-  font-size: 20px;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  text-align: center;
+}
+.subt{
+  width: 80%;
+}
+.cabt{
+  width: 80%;
+}
+.stbt{
+  width: 80%;
+}
+.mobt{
+  width: 80%;
+}
+/*---woman---*/
+.womane{
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 auto;
+
+  font-size: 80px;
+}
+.womans
+{
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  text-align: center;
 }
 
+/*-------sidetext------*/
+.sidetext{
+  background: #ccc;
+  text-align: center;
+  font-size: 15px;
+}
 input[id="menuicon"]:checked + label + div {left: 0;}
  /*poto*/
  .suitimg
@@ -111,6 +159,6 @@ input[id="menuicon"]:checked + label + div {left: 0;}
     width: 100%;
   }
   .st{
-    width: 100;
+    width: 100%;
   }
 /*--------------------*/

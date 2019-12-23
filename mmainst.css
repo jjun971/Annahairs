@@ -84,7 +84,7 @@ div[class="sidebar"]
   background: #fff;
   font-size: 50px;
   width: 85%;
-  height: 95%;
+  height: 90%;
   left: 1%;
   right: -1%;
   margin: 0 auto;
@@ -127,7 +127,6 @@ div[class="sidebar"]
   text-align: center;
   margin: 0 auto;
   padding: 0 auto;
-
   font-size: 80px;
 }
 .womans
@@ -144,6 +143,8 @@ div[class="sidebar"]
   text-align: center;
   font-size: 20px;
   display: block;
+  width: 85%;
+  align-items: stretch;
 }
 input[id="menuicon"]:checked + label + div {left: 0;}
  /*poto*/

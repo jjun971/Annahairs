@@ -53,7 +53,7 @@ body{
  }
  input[id="menuicon"]:checked +label{
    z-index: 2;
-   left: 800px;
+   left: 650px;
  }
  /*-------sidebar size--------*/
 
@@ -68,12 +68,12 @@ img[id="titleimg"]
 
 div[class="sidebar"]
 {
-  width: 800px;
+  width: 650px;
   height: 100%;
   background: #ededed;
   position: fixed;
   top: 0;
-  left: -800px;
+  left: -650px;
   z-index: 1;
   transition: all .35s;
 }
@@ -111,16 +111,16 @@ div[class="sidebar"]
   text-align: center;
 }
 .subt{
-  width: 100%;
+  width: 90%;
 }
 .cabt{
-  width: 100%;
+  width: 90%;
 }
 .stbt{
-  width: 100%;
+  width: 90%;
 }
 .mobt{
-  width: 100%;
+  width: 90%;
 }
 /*---woman---*/
 .womane{

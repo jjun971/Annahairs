@@ -143,6 +143,8 @@ div[class="sidebar"]
   background: #ccc;
   text-align: center;
   font-size: 15px;
+  height: 100%;
+  display: block;
 }
 input[id="menuicon"]:checked + label + div {left: 0;}
  /*poto*/

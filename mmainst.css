@@ -145,6 +145,10 @@ div[class="sidebar"]
   display: block;
   width: 85%;
   align-items: stretch;
+  left: 1%;
+  right: -1%;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 input[id="menuicon"]:checked + label + div {left: 0;}
  /*poto*/

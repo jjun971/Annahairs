@@ -1,12 +1,11 @@
 .mainlogo
 {
   position: absolute;
-  width: 50% auto;
-  height: 100% auto;
+  width: 50%;
+  height: 100%;
   float: left;
   left: 10px;
   top: 10px;
-  display: block;
 }
 .menu
 {
